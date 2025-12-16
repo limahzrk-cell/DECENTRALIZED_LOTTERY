@@ -1,16 +1,23 @@
-# React + Vite
+DECENTRALIZED LOTTERY DAPP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple decentralized lottery application built using SOLIDITY,REACT(vite),and ETHERS.js.
+Users can buy lottery tickets using ETH, and the contract owner can pick  a random winner.
 
-Currently, two official plugins are available:
+--FEATURRES--
+-Connect MetaMask wallet.
+-Buy lottery ticket(0.01 ETH)
+-View current prize tool
+-Owner can pick winner
+-Fully decentralized smart contract
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---TECHH STACK
+-Solidity(Smart contract)
+-React + vite (Fronted)
+-ethers.js
+-MetaMask
+-Remix IDE
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---HOW TO RUN LOCALLY--
+bash
+npm install
+npm run dev
